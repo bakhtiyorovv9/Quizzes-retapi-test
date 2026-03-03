@@ -1,0 +1,1298 @@
+[
+    {
+        "id": 1,
+        "title": "JavaScript da let nima uchun ishlatiladi?",
+        "imagePath": "/images/js1.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "O‘zgaruvchi e'lon qilish uchun",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Funksiya yaratish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Class yaratish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Array yaratish uchun",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "JSON nimani anglatadi?",
+        "imagePath": "/images/json.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "JavaScript Object Notation",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Java Standard Object Name",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Java Syntax Open Network",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Joint System Object Node",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Qaysi metod arrayni aylantirib chiqadi?",
+        "imagePath": "/images/array.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "map()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "push()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "pop()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "shift()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "HTTP status 404 nimani bildiradi?",
+        "imagePath": "/images/http.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Server ishlamayapti",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Ma'lumot topilmadi",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Hammasi joyida",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Ruxsat yo‘q",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Qaysi biri NoSQL database?",
+        "imagePath": "/images/db.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "MySQL",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "PostgreSQL",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "MongoDB",
+                "is_correct": true
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "SQLite",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "const bilan e'lon qilingan o‘zgaruvchi?",
+        "imagePath": "/images/const.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Qayta o‘zgartirib bo‘ladi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Qayta qiymat berib bo‘lmaydi",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Faqat array uchun ishlatiladi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Faqat funksiya ichida ishlaydi",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Qaysi metod array oxiriga element qo‘shadi?",
+        "imagePath": "/images/push.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "shift()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "unshift()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "push()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "map()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "REST API da GET metodi nima qiladi?",
+        "imagePath": "/images/get.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Ma'lumot o‘qiydi",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Ma'lumot o‘chiradi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Ma'lumot yangilaydi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Ma'lumot yaratadi",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Qaysi metod stringni numberga o‘giradi?",
+        "imagePath": "/images/parse.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "parseInt()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "toString()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "join()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "concat()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Qaysi operator tenglikni qat'iy tekshiradi?",
+        "imagePath": "/images/operator.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "==",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "===",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "!=",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "=",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Qaysi metod massivdan oxirgi elementni olib tashlaydi?",
+        "imagePath": "/images/pop.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "push()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "shift()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "pop()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "map()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Promise qaysi holatlarga ega?",
+        "imagePath": "/images/promise.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "pending, fulfilled, rejected",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "start, stop, pause",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "open, close, error",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "true, false",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Qaysi metod arrayni filter qiladi?",
+        "imagePath": "/images/filter.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "reduce()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "filter()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "forEach()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "slice()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Middleware qayerda ishlatiladi?",
+        "imagePath": "/images/middleware.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Express.js da",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "HTML da",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "CSS da",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Photoshop da",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Qaysi metod arrayni bitta qiymatga yig‘adi?",
+        "imagePath": "/images/reduce.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "map()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "filter()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "reduce()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "find()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "title": "CORS nima uchun kerak?",
+        "imagePath": "/images/cors.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Serverni o‘chirish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Turli domenlardan so‘rovga ruxsat berish uchun",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Database yaratish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "CSS yozish uchun",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Qaysi biri frontend framework?",
+        "imagePath": "/images/frontend.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "React",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Express",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "MongoDB",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Node.js",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Async/await nima bilan ishlaydi?",
+        "imagePath": "/images/async.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Callback",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Promise",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Array",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Loop",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Qaysi metod array ichidan bitta element topadi?",
+        "imagePath": "/images/find.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "find()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "map()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "push()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "concat()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Qaysi metod array uzunligini beradi?",
+        "imagePath": "/images/length.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "size()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "length",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "count()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "index()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Qaysi HTTP metod ma'lumot yaratadi?",
+        "imagePath": "/images/post.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "GET",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "DELETE",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "POST",
+                "is_correct": true
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "OPTIONS",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Qaysi HTTP metod ma'lumotni o‘chiradi?",
+        "imagePath": "/images/delete.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "PUT",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "DELETE",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "GET",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "PATCH",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Qaysi biri relational database?",
+        "imagePath": "/images/sql.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "MongoDB",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Redis",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "PostgreSQL",
+                "is_correct": true
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Firebase",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Qaysi metod array boshidan element olib tashlaydi?",
+        "imagePath": "/images/shift.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "pop()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "shift()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "push()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "slice()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Qaysi metod array boshiga element qo‘shadi?",
+        "imagePath": "/images/unshift.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "push()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "unshift()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "map()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "reduce()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Qaysi metod stringni kichik harfga o‘giradi?",
+        "imagePath": "/images/lowercase.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "toUpperCase()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "toLowerCase()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "trim()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "slice()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Environment variables qayerda saqlanadi?",
+        "imagePath": "/images/env.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": ".env faylida",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "index.html ichida",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "style.css ichida",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "README.md ichida",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Qaysi metod objectni JSON stringga aylantiradi?",
+        "imagePath": "/images/stringify.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "JSON.parse()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "JSON.stringify()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "JSON.object()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "JSON.convert()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Qaysi metod array ichida qiymat bor-yo‘qligini tekshiradi?",
+        "imagePath": "/images/includes.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "includes()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "replace()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "split()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "join()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Qaysi metod arrayni stringga aylantiradi (elementlarni qo‘shib)?",
+        "imagePath": "/images/join.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "join()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "slice()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "splice()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "filter()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Qaysi metod stringni bo‘lib array qiladi?",
+        "imagePath": "/images/split.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "split()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "trim()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "toLowerCase()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "toString()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Qaysi metod string bosh-oxiridagi bo‘sh joylarni olib tashlaydi?",
+        "imagePath": "/images/trim.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "trim()",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "slice()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "concat()",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "padStart()",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Qaysi HTTP status 'Created' (yaratildi) degani?",
+        "imagePath": "/images/status.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "200",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "201",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "401",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "500",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "title": "Qaysi HTTP status 'Unauthorized' (login kerak) degani?",
+        "imagePath": "/images/401.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "401",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "403",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "404",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "204",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Qaysi HTTP status 'Forbidden' (ruxsat yo‘q) degani?",
+        "imagePath": "/images/403.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "401",
+                "is_correct": false
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "403",
+                "is_correct": true
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "404",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "500",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "title": "Qaysi status code 'No Content' degani?",
+        "imagePath": "/images/204.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "204",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "302",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "418",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "500",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "title": "PUT va PATCH farqi nimada?",
+        "imagePath": "/images/put_patch.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "PUT to‘liq update, PATCH qisman update",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "PUT faqat o‘chiradi, PATCH faqat yaratadi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "PUT faqat GET bilan ishlaydi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Farqi yo‘q",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "title": "JWT asosan nima uchun ishlatiladi?",
+        "imagePath": "/images/jwt.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Authentication/Authorization uchun",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Rasm chizish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "CSS yozish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Video render uchun",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Bcrypt nima uchun kerak?",
+        "imagePath": "/images/bcrypt.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Parolni hash qilish uchun",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "HTTP status yuborish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "JSON o‘qish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "DOM boshqarish uchun",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "title": "SQL da SELECT nima qiladi?",
+        "imagePath": "/images/select.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Ma'lumotni o‘qiydi",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Jadvalni o‘chiradi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Jadval yaratadi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Serverni ishga tushiradi",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "title": "SQL da WHERE nima uchun kerak?",
+        "imagePath": "/images/where.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Filtrlash (shart qo‘yish) uchun",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Sort qilish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Jadval yaratish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Cache uchun",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "title": "SQL da ORDER BY nima qiladi?",
+        "imagePath": "/images/orderby.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Natijani tartiblaydi (sort)",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Jadvalni o‘chiradi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Index yaratadi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Login qiladi",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "title": "Git da branch nima?",
+        "imagePath": "/images/git_branch.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Kodning alohida yo‘nalishi (tarmoq)",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Rasm formati",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Database jadvali",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Browser plagin",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Git da merge nima qiladi?",
+        "imagePath": "/images/git_merge.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Branchlarni birlashtiradi",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Kompyuterni o‘chiradi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Faylni zip qiladi",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Serverni restart qiladi",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Docker nima uchun ishlatiladi?",
+        "imagePath": "/images/docker.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Appni containerda ishga tushirish uchun",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "CSSni tez yozish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Rasm chizish uchun",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Video kesish uchun",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Port 80 odatda qaysi protokolga tegishli?",
+        "imagePath": "/images/port80.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "HTTP",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "SSH",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "FTP",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "SMTP",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Port 443 odatda qaysi protokolga tegishli?",
+        "imagePath": "/images/port443.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "HTTPS",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "HTTP",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "DNS",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Telnet",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Frontend va Backend farqi nima?",
+        "imagePath": "/images/fullstack.png",
+        "answers": [
+            {
+                "answer_id": 1,
+                "answer_title": "Frontend UI, Backend server/DB logika",
+                "is_correct": true
+            },
+            {
+                "answer_id": 2,
+                "answer_title": "Frontend faqat database, Backend faqat CSS",
+                "is_correct": false
+            },
+            {
+                "answer_id": 3,
+                "answer_title": "Frontend faqat terminal, Backend faqat brauzer",
+                "is_correct": false
+            },
+            {
+                "answer_id": 4,
+                "answer_title": "Farqi yo‘q",
+                "is_correct": false
+            }
+        ]
+    }
+]
