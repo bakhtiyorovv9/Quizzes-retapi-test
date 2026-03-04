@@ -1,22 +1,11 @@
 const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
-const { isBoxedPrimitive } = require('node:util/types');
-const { json } = require('node:stream/consumers');
-const { url } = require('node:inspector');
-
-
 
 const PORT = 3030;
 
 const server = http.createServer((req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader(
-    'Access-Control-Allow-Methods',
-    'GET, POST, OPTIONS, PUT, PATCH, DELETE'
-  );
-  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-  res.setHeader('Access-Control-Allow-Credentials', true);
+  
 
   let body = "";
   req.on("data", (chunk) => {
@@ -36,10 +25,6 @@ function handleRequest(req,res){
   const urls = req.url?.split("/");
   const filePath = path.join( process.cwd(), "data", "quizzes.json");
 
-  // console.log(urls)
-
-
-  // default headers 
   res.statusCode = 200;
   res.setHeader("Content-Type", "application /json");
 
@@ -82,11 +67,6 @@ function handleRequest(req,res){
     return;
   }
 
-  // if(method === "POST"){
-  //   if(urls[1] === "quizzes"){
-
-  //   }
-  // }
   if( method === "DELETE"){
     if( urls[1] === "quizzes"){
       if( urls[2] ){
@@ -147,6 +127,99 @@ function handleRequest(req,res){
 
     }
   }
+  if (method === "PUT") {
+  if (urls[1] === "quizzes") {
+    if (!urls[2] || !Number(urls[2])) {
+      res.writeHead(400, { "Content-Type": "application/json" });
+      res.end(
+        JSON.stringify({
+          success: false,
+          message: "ID must be a number",
+        })
+      );
+      return;
+    }
+
+    const id = Number(urls[2]);
+
+    const index = data.findIndex((el) => el.id === id);
+
+    if (index === -1) {
+      res.statusCode = 404;
+      res.end(
+        JSON.stringify({
+          success: false,
+          message: `ID ${id} quiz not found`,
+        })
+      );
+      return;
+    }
+
+    data[index] = {
+      ...data[index],
+      ...req.body,
+      id,
+    };
+
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 4));
+
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(
+        JSON.stringify({
+        success: true,
+        data: data[index],
+      })
+    );
+    return;
+    }
+  }
+
+
+  if (method === "PATCH") {
+  if (urls[1] === "quizzes") {
+    if (!urls[2] || !Number(urls[2])) {
+      res.writeHead(400, { "Content-Type": "application/json" });
+      res.end(
+        JSON.stringify({
+          success: false,
+          message: "ID must be a number",
+        })
+      );
+      return;
+    }
+
+    const id = Number(urls[2]);
+    const index = data.findIndex((el) => el.id === id);
+
+    if (index === -1) {
+      res.statusCode = 404;
+      res.end(
+        JSON.stringify({
+          success: false,
+          message: `ID ${id} quiz not found`,
+        })
+      );
+      return;
+    }
+
+    data[index] = {
+      ...data[index],
+      ...req.body,
+      id,
+    };
+
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 4));
+
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(
+      JSON.stringify({
+        success: true,
+        data: data[index],
+      })
+    );
+    return;
+  }
+}
 
   res.statusCode = 404;
   res.end(
@@ -157,7 +230,21 @@ function handleRequest(req,res){
 }
 
 function ValidationQuiz(body){
-  
+  if( !body ){
+    return false
+  }
+
+  const {title,answers} = body
+
+  if( answers.length < 3){
+    return false
+  }
+
+  if ( !title ){
+    return false
+  }
+
+  return 
 }
 
 
